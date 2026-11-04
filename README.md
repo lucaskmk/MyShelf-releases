@@ -26,26 +26,18 @@ private.
 
 Get the latest version from [Releases](../../releases/latest).
 
-| System | File |
-|---|---|
-| Windows | `MyShelf_x.y.z_x64-setup.exe` |
-| macOS (Intel and Apple Silicon) | `.dmg` |
-| Linux | `.AppImage`, `.deb` or `.rpm` |
+Windows only for now: `MyShelf_x.y.z_x64-setup.exe`. macOS and Linux builds
+are not available yet.
 
 The app updates itself: when a new version is out it shows a notice, and installs
 only when you click.
 
 ### First run
 
-The installers are not code-signed yet, so the system warns on the first run:
-
-- **Windows** — "Windows protected your PC": click *More info* → *Run anyway*.
-  Some antivirus programs flag unsigned new apps; if yours quarantines MyShelf,
-  restore it from the quarantine.
-- **macOS** — right-click the app → *Open* (or System Settings → Privacy &
-  Security → *Open Anyway*). If it says the app is damaged, run
-  `xattr -cr /Applications/MyShelf.app` in Terminal.
-- **Linux** — for the AppImage, `chmod +x` and run it.
+The installer is not code-signed yet, so Windows warns on the first run:
+"Windows protected your PC" → click *More info* → *Run anyway*. Some antivirus
+programs flag unsigned new apps; if yours quarantines MyShelf, restore it from
+the quarantine.
 
 ## Your data
 
