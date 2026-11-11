@@ -4,7 +4,7 @@ Local-first notes, boards and study. Your notebooks are plain Markdown files in 
 folder you choose — they open in any editor, sync with OneDrive or any other
 service, and keep working offline.
 
-> The interface is in Portuguese (pt-BR).
+> The interface is available in Portuguese, English and Spanish.
 
 This repository only hosts the installers and the update feed. The source code is
 private.
